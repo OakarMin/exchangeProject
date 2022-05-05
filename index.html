@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Lato:wght@300&family=Roboto+Condensed:ital,wght@1,300&family=Roboto:ital,wght@0,100;0,300;1,100&family=Twinkle+Star&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="exchangeProject.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="headerContainer">
+        <div class="logoDiv">
+          <img src="projectFile/pngegg.png" alt="" class="exchangeLogo" />
+          <p class="exchangeLogoText">MMexchange</p>
+        </div>
+        <div class="resultDiv">0.00</div>
+      </div>
+      <div class="underLineDiv"></div>
+      <div class="calculateMainDiv">
+        <div class="inputControl">
+          <label for="inputTag" class="inputLabel">Rate Amount</label>
+          <input type="number" class="inputTag" min="1" required/>
+        </div>
+        <div class="fromControl">
+          <label for="fromTag">From</label>
+          <select name="" id="" class="fromTag"></select>
+        </div>
+        <div class="toControl">
+          <label for="toTag">To</label>
+          <select name="" id="" class="toTag">To</select>
+        </div>
+        <div class="calculateBtnControl">
+          <button class="calculateBtn">Calculate</button>
+        </div>
+      </div>
+      <div class="historyHeader">
+        <div class="dateDiv textControl">Date</div>
+        <div class="rateAmount textControl">Rate Amount</div>
+        <div class="from textControl">From</div>
+        <div class="to textControl">To</div>
+        <div class="result textControl">Result</div>
+      </div>
+      <div class="tableContainer">
+       <table>
+         <tbody class="tableBody">
+         
+         </tbody>
+       </table>
+      </div>
+    </div>
+    <script src="exchangeProject.js"></script>
+  </body>
+</html>
